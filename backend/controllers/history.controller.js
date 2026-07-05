@@ -1,5 +1,4 @@
-const History = require("../models/History");
-
+const History = require("../models/history");
 exports.getHistory = async (req, res) => {
     try {
         const history = await History.find().sort({
