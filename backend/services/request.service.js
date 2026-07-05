@@ -1,5 +1,5 @@
 const axios = require("axios");
-const History = require("../models/History");
+const History = require("../models/history");
 const Environment = require("../models/Variable");
 
 console.log("Environment:");
